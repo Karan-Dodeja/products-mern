@@ -36,7 +36,7 @@ export const Table = () => {
                   <label>Process 1.1</label>
                 </div>
                 <div>
-                  <Link to="/">View Details</Link>
+                  <Link to="/modal">View Details</Link>
                 </div>
               </div>
             </td>
@@ -60,7 +60,7 @@ export const Table = () => {
                   <label>Process 1.2</label>
                 </div>
                 <div>
-                  <Link to="/">View Details</Link>
+                  <Link to="/modal">View Details</Link>
                 </div>
               </div>
             </td>
@@ -84,7 +84,7 @@ export const Table = () => {
                   <label>Process 2.1</label>
                 </div>
                 <div>
-                  <Link to="/">View Details</Link>
+                  <Link to="/modal">View Details</Link>
                 </div>
               </div>
             </td>
@@ -108,7 +108,7 @@ export const Table = () => {
                   <label>Process 2.2</label>
                 </div>
                 <div>
-                  <Link to="/">View Details</Link>
+                  <Link to="/modal">View Details</Link>
                 </div>
               </div>
             </td>
@@ -132,7 +132,7 @@ export const Table = () => {
                   <label>Process 3.1</label>
                 </div>
                 <div>
-                  <Link to="/">View Details</Link>
+                  <Link to="/modal">View Details</Link>
                 </div>
               </div>
             </td>
@@ -156,7 +156,7 @@ export const Table = () => {
                   <label>Process 3.2</label>
                 </div>
                 <div>
-                  <Link to="/">View Details</Link>
+                  <Link to="/modal">View Details</Link>
                 </div>
               </div>
             </td>

@@ -1,9 +1,13 @@
-import { Table } from './Components/Table'
+import { Table, Modal } from "./Components/Table";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Table />
+      <Routes>
+        <Route path="/" element={<Table />} />
+        <Route path="/modal" element={<Modal />} />
+      </Routes>
     </div>
   );
 }
