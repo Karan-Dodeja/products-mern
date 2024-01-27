@@ -7,8 +7,8 @@ export const Modal = () => {
         <h1>Product Description</h1>
       </div>
       <div className="modal-description">
-        <h2>Chemistry 1 - Process 1.1</h2>
-        <p>
+        <h2 className="modal-description-header">Chemistry 1 - Process 1.1</h2>
+        <p className="modal-description-body">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
