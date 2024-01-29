@@ -1,10 +1,12 @@
 import React from "react";
+import "./Modal.css";
 
 export const Modal = () => {
   return (
-    <div>
+    <div className="modal">
       <div className="modal-header">
         <h1>Product Description</h1>
+        <div className="modal-border"></div>
       </div>
       <div className="modal-description">
         <h2 className="modal-description-header">Chemistry 1 - Process 1.1</h2>
