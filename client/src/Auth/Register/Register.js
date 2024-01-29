@@ -1,8 +1,10 @@
+import './Register.css';
+
 export const Register = () => {
   return (
-    <div className="register-component">
-      <div>
-        <h1 className="register-header">New User</h1>
+    <div className="register">
+      <div className="register-header">
+        <h1>New User</h1>
       </div>
       <div>
         <input
@@ -37,6 +39,14 @@ export const Register = () => {
           className="register-email"
           required
         />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+          className="register-password"
+          required
+        />
         <textarea
           id="remarks"
           name="remarks"
@@ -46,7 +56,7 @@ export const Register = () => {
           className="register-remarks"
           required
         ></textarea>
-        <button>Submit</button>
+        <button className='register-button'>Submit</button>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ function App() {
         <Route path="/" element={<Table />} />
         <Route path="/modal" element={<Modal />} />
         <Route path="/auth/login" element={<Login />} />
-        <Route path="/auth/login" element={<Register />} />
+        <Route path="/auth/register" element={<Register />} />
       </Routes>
     </div>
   );

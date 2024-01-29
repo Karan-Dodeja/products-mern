@@ -1,0 +1,75 @@
+.register {
+  background-color: rgb(52, 52, 52);
+  color: white;
+  padding: 15px 20px 40px 20px;
+  margin: 10px 10px 10px 10px;
+  width: 40%;
+}
+
+.register-header {
+  color: white;
+}
+
+.register-header h1 {
+  padding: 0px 0px 15px 0px;
+  border-bottom: 1px grey solid;
+}
+
+.register-companyName {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-location {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-phoneNumber {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-remarks {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.register-email {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-password {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.register-button {
+  background-color: white;
+  border-radius: 10px;
+  width: 25%;
+  margin-top: 5px;
+  font-size: small;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+}
